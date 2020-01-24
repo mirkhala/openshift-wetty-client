@@ -11,7 +11,7 @@ LABEL name="openshift-wetty-client" \
 
 ARG OC_MAJOR_VERSION
 ARG OC_VERSION
-ARG ODO_VERSION
+#ARG ODO_VERSION
 
 ENV NODEJS_VERSION=10 \
     NODE_ENV=production \
